@@ -7,7 +7,7 @@ module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: [
     'normalize.css',
-    './src/styles/app.css',
+    './style/app.css',
     'eventsource-polyfill', // necessary for hot reloading with IE
     './src/index'
   ],

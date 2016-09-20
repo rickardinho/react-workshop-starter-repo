@@ -25,6 +25,9 @@
     "classnames": "2.2.3",
     "normalize.css": "3.0.3",
     "react": "0.14.6",
-    "react-dom": "0.14.6"
+    "react-dom": "0.14.6",
+    "react-redux": "4.4.5",
+    "react-router": "2.8.1",
+    "redux": "3.6.0"
   }
 }

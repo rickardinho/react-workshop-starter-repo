@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default React.createClass({
-  render: function () {
+import SearchBar from '../containers/search_bar';
+
+export default class App extends Component {
+  render() {
     return (
       <div>
-        Welcome to React!
+        <SearchBar />
       </div>
     );
   }
-});
+}
+
